@@ -1,8 +1,65 @@
 body{
     font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+
+a{
+    color: #C99C2A;
 }
 
 .navbar{
-    height: 4px;
-    background-color: aliceblue;
+    height: 4rem;
+    background-color: #050401;
+    opacity: 65%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    line-height: 4rem;
+}
+.navbar .myweb{
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 2rem;
+    font-size: 2.7rem;
+    height: 100%;
+    color: #C99C2A;
+    text-shadow: 0 0 0.5rem yellow;
+}
+.navbar .navigation ul{
+    margin-right: 6rem;
+    display: flex;
+}
+.navbar .navigation ul li{
+    margin-left: 2.5rem;
+}
+.navbar .navigation a:hover{
+    text-shadow: 0 0 1rem yellow;
+    border-bottom: 5px solid #705510;
+}
+
+.hero{
+    height: 40rem;
+    background-image: url(img/nature.jpg);
+    background-size: cover;
+}
+.hero h1{
+    font-size: 6vw;
+    font-weight: bold;
+    position: absolute;
+    top: 300px;
+    margin-left: 2rem;
+}
+.hero h2{
+    font-size: 6.5vw;
+    font-weight: bold;
+    position: absolute;
+    top: 400px;
+    margin-left: 2rem;
+}
+
+.about{
+    height: 20rem;
+    background-color: orange;
 }
