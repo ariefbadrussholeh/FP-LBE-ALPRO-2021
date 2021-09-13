@@ -4,45 +4,57 @@ body{
 }
 
 a{
-    color: #C99C2A;
+    color: #B0D7FF;
 }
 
 .navbar{
     height: 4rem;
-    background-color: #050401;
+    background-color: #2D3142;
     opacity: 65%;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     line-height: 4rem;
     z-index: 99999;
 }
 .navbar .myweb{
     font-family: 'Kaushan Script', cursive;
-    margin-left: 2rem;
     font-size: 2.7rem;
     height: 100%;
-    color: #C99C2A;
-    text-shadow: 0 0 0.5rem yellow;
+    color: white;
+    line-height: 3.5rem;
+	text-shadow: 0 1px 0 #ccc,
+	             0 2px 0 #c9c9c9,
+	             0 3px 0 #bbb,
+	             0 4px 0 #b9b9b9,
+	             0 5px 0 #aaa,
+	             0 6px 1px rgba(0,0,0,.1),
+	             0 0 5px rgba(0,0,0,.1),
+	             0 1px 3px rgba(0,0,0,.3),
+	             0 3px 5px rgba(0,0,0,.2),
+	             0 5px 10px rgba(0,0,0,.25),
+	             0 10px 10px rgba(0,0,0,.2),
+	             0 20px 20px rgba(0,0,0,.15);
 }
 .navbar .navigation ul{
-    margin-right: 6rem;
     display: flex;
 }
 .navbar .navigation ul li{
-    margin-left: 2.5rem;
+    height: 3.7rem;
+    margin-right: 4vw;
 }
-.navbar .navigation a:hover{
-    text-shadow: 0 0 1rem yellow;
-    border-bottom: 5px solid #705510;
+.navbar .navigation ul li:hover{
+    box-sizing: border-box;
+    border-bottom: 5px solid #ADACB5;
+    text-shadow: 0 0 1rem #EAE8FF;
 }
 
 .hero{
     height: 40rem;
-    background-image: url(img/nature.jpg);
+    background-image: url(img/keyboard.jpg);
     background-size: cover;
 }
 .hero h1{
@@ -57,7 +69,7 @@ a{
     position: absolute;
     top: 400px;
     margin-left: 2rem;
-    text-shadow: 0 1px 1px #705510;
+    text-shadow: 0 1px 1px white;
 }
 #me{
     background-image: url(img/ISOL\ 7.JPG);
@@ -69,8 +81,7 @@ a{
     width: 12rem;
     position: absolute;
     top: 120px;
-    right: 6rem;
-    border: 2px solid #050401;
+    right: 7.5rem;
     text-indent: -99999px;
 }
 #me:hover{
@@ -78,7 +89,7 @@ a{
     background-size: 300px;
     background-position-x: -60px;
     background-position-y: -60px;
-    box-shadow: 0 0 5px yellow;
+    box-shadow: 2px 2px 5px black;
 }
 
 .about{
@@ -117,4 +128,19 @@ a{
     margin-bottom: 15px;
     text-shadow: 0 0 5px #705510;
     text-align: center;
+}
+.skill .container{
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+}
+.skill .container ul{
+    display: flex;
+    justify-content: space-between;
+}
+.skill .container ul li{
+    background-color: red;
+    font-size: 2.5rem;
+    margin-right: 10px;
+    
 }
