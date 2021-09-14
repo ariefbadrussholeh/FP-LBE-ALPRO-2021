@@ -2,18 +2,40 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 0.9rem;
 }
-
 a{
     color: #B0D7FF;
 }
 h1{
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
     text-shadow: 0 1px 1px white;
+    margin-bottom: 4vw;
+}
+.line{
+    width: 50%;
+    margin: auto;
+    margin-top: 4vw;
+    border-top: 0.4vw solid #2D3142;
+}
+.longline{
+    width: 100%;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    border-top: 0.2vw solid #2D3142;
+}
+.lightlongline{
+    width: 100%;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    border-top: 0.1vw solid #2D3142;
 }
 
+/* NAVBAR */
 .navbar{
     height: 4rem;
-    background-color: #2D3142;
-    opacity: 65%;
+    background-color: rgba(45, 49, 66, .7);;
+
     position: fixed;
     top: 0;
     right: 0;
@@ -25,7 +47,7 @@ h1{
 }
 .navbar .myweb{
     font-family: 'Kaushan Script', cursive;
-    font-size: 2.7rem;
+    font-size: 2.3rem;
     height: 100%;
     color: white;
     letter-spacing: 4px;
@@ -56,95 +78,92 @@ h1{
     text-shadow: 0 0 1rem #EAE8FF;
 }
 
-.hero{
-    height: 40rem;
+/* HOME */
+.home{
+    padding-top: 120px;
+    padding-bottom: 30px;
     background-image: url(img/keyboard.jpg);
     background-size: cover;
 }
-.hero h2{
-    font-size: 50px;
-    position: absolute;
-    top: 340px;
-    margin-left: 2rem;
+.home .container{
+    width: 100%;
+    background-color: rgba(45, 49, 66, .1);
+    margin-bottom: 70px;
 }
-.hero h1{
-    font-size: 70px;
+.home h2{
+    text-align: center;
+    font-size: 4.5vw;
+    margin-bottom: 2vw;
+    text-shadow: 0 0.5px 1px white;
+}
+.home h1{
+    font-size: 5.5vw;
     font-weight: bold;
-    position: absolute;
-    top: 400px;
-    margin-left: 2rem;
 }
 #me{
+    display: block;
+    margin: auto;
+    margin-bottom: 5vw;
     background-image: url(img/ISOL\ 7.JPG);
     background-size: 300px;
-    background-position-x: -60px;
-    background-position-y: -60px;
+    background-position: -60px -60px;
     border-radius: 40%;
     height: 12rem;
     width: 12rem;
-    position: absolute;
+    /* position: absolute;
     top: 120px;
-    right: 9rem;
+    right: 9rem; */
     text-indent: -99999px;
 }
 #me:hover{
     background-image: url(img/isol\ 7.png);
     background-size: 300px;
-    background-position-x: -60px;
-    background-position-y: -60px;
+    background-position: -60px -60px;
     box-shadow: 2px 2px 5px black;
 }
-#about{
-    position: absolute;
-    top: 500px;
-    left: -99px;
-}
 
+/* ABOUT */
+#about{
+    font-size: 0.2px;
+    position: relative;
+    top: -170px;
+    left:-9999px;
+}
 .about{
     background-image: url(img/isol2.png);
     background-size: cover;
-    background-repeat: unset;
     background-position: 12px;
-    padding: 70px 40px;
-    box-sizing: border-box;
     text-align: center;
-}
-.about h1{
-    font-size: 4rem;
-    font-weight: bold;
-    margin-bottom: 15px;
+    padding: 5vw 8vw;
 }
 .about p{
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 .about p:hover{
     text-decoration: underline;
 }
-.line{
-    width: 50%;
-    margin: auto;
-    margin-top: 40px;
-    border-top: 5px solid #2D3142;
-}
 
+
+/* SKILL */
+#cv{
+    font-size: 0.2px;
+    position: relative;
+    top: -110px;
+    left:-9999px;
+}
 .skill{
     background-image: url(img/silver_scales.png);
-    padding: 70px 40px ;
-}
-.skill h1{
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
+    padding: 5vw;
 }
 .skill .desc{
-    margin-top: 40px;
     text-align: center;
-    font-size: 25px;
+    font-size: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
 }
 .skill .container{
-    width: 60%;
+    width: 75%;
     margin: auto;
-    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -152,9 +171,9 @@ h1{
 .skill .container p{
     display: block;
     padding: 2vw;
-    margin: 10px;
+    margin: 1.5vw;
     box-sizing: border-box;
-    font-size: 3vw;
+    font-size: 2vw;
     color: #B0D7FF;
     text-align: center;
     background-color: #2D3142;
@@ -166,3 +185,62 @@ h1{
     box-shadow: 2px 2px 5px black;
 }
 
+
+.education{
+    padding: 5vw 8vw;
+    background-color: #d8d5db;
+    font-size: 2vw;
+    line-height: 3vw;
+}
+.education h2{
+    font-weight: bold;
+    font-size: 1.8vw;
+}
+.education p{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.education ul{
+    list-style: disc;
+    margin-left: 15px;
+}
+.education .its{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.education .container{
+    width: 65vw;
+}
+.education .its .logo1{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    padding: 5px;
+    background-image: url(img/its.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.education .its .logo2{
+    width: 15vw;
+    height: 15vw;
+    background-image: url(img/Smga.png);
+    background-size: contain;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
+
+/* ACHIEVMENT */
+.achievment .year{
+    width: 12vw;
+    background-color: #2D3142;
+    color: #B0D7FF;
+    padding: 0.2vw 2vw;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1vw;
+}
+.achievment p{
+    text-align: center;
+}
