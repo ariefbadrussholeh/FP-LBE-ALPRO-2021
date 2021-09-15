@@ -49,10 +49,10 @@ h1{
     font-family: 'Kaushan Script', cursive;
     font-size: 2.3rem;
     height: 100%;
-    color: white;
-    letter-spacing: 4px;
+    color: #B0D7FF;
+    letter-spacing: 1px;
     line-height: 3.5rem;
-	text-shadow: 0 1px 0 #ccc,
+	/* text-shadow: 0 1px 0 #ccc,
 	             0 2px 0 #c9c9c9,
 	             0 3px 0 #bbb,
 	             0 4px 0 #b9b9b9,
@@ -63,7 +63,7 @@ h1{
 	             0 3px 5px rgba(0,0,0,.2),
 	             0 5px 10px rgba(0,0,0,.25),
 	             0 10px 10px rgba(0,0,0,.2),
-	             0 20px 20px rgba(0,0,0,.15);
+	             0 20px 20px rgba(0,0,0,.15); */
 }
 .navbar .navigation ul{
     display: flex;
@@ -123,7 +123,7 @@ h1{
     left:-9999px;
 }
 .about{
-    background-image: url(img/isol2.png);
+    background-image: url(img/about-background.png);
     background-size: cover;
     background-position: 12px;
     text-align: center;
@@ -146,7 +146,7 @@ h1{
 }
 .skill{
     background-image: url(img/skill-background.png);
-    padding: 5vw;i
+    padding: 5vw;
 }
 .skill .desc{
     text-align: center;
@@ -180,7 +180,7 @@ h1{
 
 /* EDUCATION */
 .education{
-    padding: 5vw 8vw;
+    padding: 4vw 8vw;
     background-color: #d8d5db;
     background-image: url(img/education-background.png);
     background-repeat: round;
@@ -251,5 +251,67 @@ h1{
     background-size: cover;
 }
 .gallery .line{
-    margin-top: 5vw;
+    /* margin-top: 5vw; */
+}
+
+/* CONTACT */
+#contact{
+    font-size: 0.2px;
+    position: relative;
+    top: -80px;
+    left:-9999px;
+}
+.contact{
+    padding: 3vw 8vw;
+    background-color: #EAE8FF;
+}
+.contact .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contact a{
+    display: block;
+    height: 12vw;
+    width: 12vw;
+    margin: 2vw;
+    border-radius: 50%;
+    text-indent: -999px;
+}
+.contact a:hover{
+    box-shadow: 0px 2px 5px black;
+}
+.contact .github{
+    background-image: url(img/icon/github.png);
+    background-size: cover;
+}
+.contact .linkedin{
+    background-image: url(img/icon/linkedin.png);
+    background-size: cover;
+}
+.contact .lineapp{
+    background-image: url(img/icon/lineapps.png);
+    background-size: cover;
+}
+.contact .wa{
+    background-image: url(img/icon/whatsapp.png);
+    background-size: cover;
+}
+
+/* COPYRIGHT */
+.copyright{
+    text-align: center;
+    background-color: #EAE8FF;
+    padding-bottom: 2vw;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #2D3142;
+    color: #B0D7FF;
+    text-align: center;
+    height: 4rem;
+    line-height: 4rem;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.3rem;
 }

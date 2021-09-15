@@ -69,12 +69,12 @@
 /*css for automatic navigation*/
   
 .navigation-auto{
-    position: absolute;
+    display: none;
+    position: relative;
     display: flex;
     width: 80vw;
     justify-content: center;
-    margin-top: 394px;
-    z-index: 99;
+    margin-top: 395px;    /* z-index: 99; */
 }  
 .navigation-auto div{
     border: 2px solid #B0D7FF;
