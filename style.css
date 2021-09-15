@@ -185,7 +185,7 @@ h1{
     box-shadow: 2px 2px 5px black;
 }
 
-
+/* EDUCATION */
 .education{
     padding: 5vw 8vw;
     background-color: #d8d5db;
@@ -243,4 +243,20 @@ h1{
 }
 .achievment p{
     text-align: center;
+}
+
+/* GALLERY */
+.gallery{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    background-image: url(img/gray.jpg);
+}
+.gallery .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.gallery .line{
+    margin-top: 5vw;
 }
