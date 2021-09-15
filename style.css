@@ -82,7 +82,7 @@ h1{
 .home{
     padding-top: 120px;
     padding-bottom: 30px;
-    background-image: url(img/keyboard.jpg);
+    background-image: url(img/home-backgroung.jpg);
     background-size: cover;
 }
 .home .container{
@@ -102,23 +102,16 @@ h1{
 }
 #me{
     display: block;
-    margin: auto;
-    margin-bottom: 5vw;
-    background-image: url(img/ISOL\ 7.JPG);
-    background-size: 300px;
-    background-position: -60px -60px;
+    background-image: url(img/isol.png);
     border-radius: 40%;
     height: 12rem;
     width: 12rem;
-    /* position: absolute;
-    top: 120px;
-    right: 9rem; */
+    margin: auto;
+    margin-bottom: 5vw;
     text-indent: -99999px;
 }
 #me:hover{
-    background-image: url(img/isol\ 7.png);
-    background-size: 300px;
-    background-position: -60px -60px;
+    background-image: url(img/isolig.png);
     box-shadow: 2px 2px 5px black;
 }
 
@@ -152,8 +145,8 @@ h1{
     left:-9999px;
 }
 .skill{
-    background-image: url(img/silver_scales.png);
-    padding: 5vw;
+    background-image: url(img/skill-background.png);
+    padding: 5vw;i
 }
 .skill .desc{
     text-align: center;
@@ -189,6 +182,8 @@ h1{
 .education{
     padding: 5vw 8vw;
     background-color: #d8d5db;
+    background-image: url(img/education-background.png);
+    background-repeat: round;
     font-size: 2vw;
     line-height: 3vw;
 }
@@ -218,17 +213,15 @@ h1{
     height: 15vw;
     border-radius: 50%;
     padding: 5px;
-    background-image: url(img/its.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-image: url(img/icon/its.png);
+    background-size: cover;
 }
 .education .its .logo2{
     width: 15vw;
     height: 15vw;
-    background-image: url(img/Smga.png);
-    background-size: contain;
+    background-image: url(img/icon/smaga.png);
+    background-size: cover;
     border-radius: 50%;
-    background-repeat: no-repeat;
 }
 
 /* ACHIEVMENT */
@@ -249,7 +242,7 @@ h1{
 .gallery{
     padding-top: 5vw;
     padding-bottom: 5vw;
-    background-image: url(img/gray.jpg);
+    background-image: url(img/gallery-background.jpg);
 }
 .gallery .container{
     display: flex;
