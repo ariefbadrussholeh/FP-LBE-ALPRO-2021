@@ -131,6 +131,7 @@ h1{
 }
 .about p{
     font-size: 2vw;
+    line-height: 2.5vw;
 }
 .about p:hover{
     text-decoration: underline;
@@ -189,7 +190,7 @@ h1{
 }
 .education h2{
     font-weight: bold;
-    font-size: 1.8vw;
+    font-size: 2vw;
 }
 .education p{
     font-style: italic;
@@ -309,9 +310,63 @@ h1{
 .footer{
     background-color: #2D3142;
     color: #B0D7FF;
-    text-align: center;
+    text-align: center; 
     height: 4rem;
     line-height: 4rem;
     font-family: 'Kaushan Script', cursive;
     font-size: 2.3rem;
+}
+
+/* MEDIA BREAKPOINT */
+@media only screen and (max-width: 700px){
+    h1{
+        font-size: 28px;
+    }
+    .home h2{
+        font-size: 28px;
+    }
+    .home h1{
+        font-size: 31px;
+    }
+    #me{
+        margin-bottom: 50px;
+    }
+    .about p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .skill{
+        padding: 35px 56px;
+    }
+    .skill .desc{
+        font-size: 14px;
+    }
+    .skill .container p{
+        font-size: 14px;
+        margin: 11px;
+    }
+    .education{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .education h2{
+        font-size: 14px;
+    }
+    .education .its{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .education .container{
+        width: 100%;
+    }
+    .education .logo1{
+        margin-bottom: 20px;
+        width: 105px;
+        height: 105px;
+    }
+    .education .logo2{
+        margin-bottom: 20px;
+        width: 105px;
+        height: 105px;
+    }
 }
