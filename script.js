@@ -5,4 +5,4 @@ setInterval(function(){
     if(counter > 8){
         counter = 1;
     }
-}, 5000);
+}, 7500);
